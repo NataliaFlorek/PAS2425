@@ -1,0 +1,14 @@
+ Dla którego z gniazd czas jest krótszy?
+Czas przesyłania TCP: 0.000140 sekund
+Czas przesyłania UDP: 0.000111 sekund
+
+Dla UDP
+• Z czego wynika krótszy czas?
+UDP jest szybsze, bo nie gwarantuje transferu danych
+• Jakie są zalety / wady obu rozwiązań?
+UDP:
+zalety: szybsze
+wady: brak gwarancji dostarczenia danych i ich kolejności, może zgubić pakiety
+TCP:
+zalety: gwaratuje, że dane dotrą w odpowiedniej kolejności i nie gubi pakietów
+wady: wolniej działa
